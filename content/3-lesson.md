@@ -1,34 +1,20 @@
 ---
-title: Create Lesson Content
-nav: Content
-topics: Content; Markdown; Includes
+title: Find Missing Children
+nav: Search
 description: >
-    This text is a "section description". Below is "section topics", followed by an example section video embed. This page details how to write content pages and add interest with includes.
-youtubeid: moJgWrD6dwg
+    Search for Missing Children here.
 ---
 
-## Content Pages
+## Missing Children
 
-Content pages are written in markdown and can be enhanced using Liquid includes that are packaged with the template.
-Start by editing the examples or creating new files in the "content" folder.
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a standard to [simplify writing](https://evanwill.github.io/_drafts/notes/writing-markdown.html) content for the web. 
-[GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
-The basics are intuitive, you can learn in about a minute!
-See [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html) to get started.
+{% capture text %}
+1. Call 489-567-8235 
+2. A 5' 2" tall, golden-brown skinned woman, light brown eyes, angled lips and a square jaw. She has coiled, grey hair, has a chipped tooth. She was last seen carrying a book.
+3. [Last Seen Location](https://www.google.com/maps/place/44%C2%B049'46.5%22N+122%C2%B047'40.3%22W/@44.82957,-122.79453,17950m/data=!3m1!1e3!4m4!3m3!8m2!3d44.82957!4d-122.79453?entry=ttu).
+{% endcapture %}
+{% include card.html text=text header="Aava Ebba" title="Last Seen 12-3-2022" img="uidaho-workshop.jpg" %}
 
-At the top of each content page is "YAML front matter" used to configure the page.
-Use these options:
-
-- `nav:` add the text you want to appear in the the header and footer navigation. 
-    - Alternatively, use `nav: true` to use the page's `title` value for the nav text. 
-    - Do not include `nav` if you do not want the page to appear in the nav elements.
-    - All pages with a `nav` value will appear in the header and footer navigation, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
-- `title:` value will appear as `h1` at the top of the page.
-- `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents.
-- `topics:` will appear as a small feature below the title or description (optional). These also appear in the default TOC.
-- `youtubeid:` will add an YouTube video embed (optional). Find the id in the YouTube link. For example, in `https://youtu.be/moJgWrD6dwg` or `https://www.youtube.com/watch?v=moJgWrD6dwg` the youtubeid is `moJgWrD6dwg`.
-- Alternatively, if you don't want `title` or other options to appear on the page, you can over ride the section layout by adding `layout: page` 
 
 ## Components Includes
 
