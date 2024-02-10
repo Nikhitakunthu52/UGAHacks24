@@ -1,27 +1,28 @@
-/* add your tweaks here! */
-/* Apply colors to the body and headers */
+/**
+/** add your tweaks here! *
+/* Apply colors to the body and headers *
 body {
-    background-color: #040000; /* Light gray background */
-    color: #333; /* Dark text color */
+    background-color: #040000; /* Light gray background 
+    color: #333; /* Dark text color 
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #004cff; /* Blue header text color */
+    color: #004cff; /* Blue header text color 
   }
   
-  /* Apply colors to links */
+  /* Apply colors to links 
   a {
-    color: #04284e; /* Blue link text color */
+    color: #04284e; /* Blue link text color 
   }
   
   a:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3; /* Darker blue on hover 
   }
   
-  /* Apply colors to buttons */
+  /* Apply colors to buttons 
   .button {
-    background-color: #007BFF; /* Blue button background color */
-    color: #fff; /* White button text color */
+    background-color: #007BFF; /* Blue button background color 
+    color: #fff; /* White button text color 
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -33,19 +34,19 @@ body {
   }
   
   .button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; /* Darker blue on hover 
   }
   
-  /* Apply colors to the footer */
+  /* Apply colors to the footer 
   .footer {
-    background-color: #333; /* Dark footer background color */
-    color: #fff; /* White footer text color */
+    background-color: #333; /* Dark footer background color 
+    color: #fff; /* White footer text color 
     padding: 20px;
   }
   
-  /* Apply colors to cards or sections */
+  /* Apply colors to cards or sections 
   .card {
-    background-color: #fff; /* White card background color */
+    background-color: #fff; /* White card background color 
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -53,5 +54,5 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Add more specific styles for different elements as needed */
-  
+  /* Add more specific styles for different elements as needed 
+  */
