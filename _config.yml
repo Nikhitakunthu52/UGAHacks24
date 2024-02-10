@@ -18,8 +18,8 @@ title: MissingKids24
 title-icon: code-slash
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
-description: "Create a workshop website quick and easy!"
-keywords: "workshops, websites, gh-pages, jekyll"
+description: "MissingKids24 create a comprehensive and compassionate online platform dedicated to addressing the heartbreaking issue of missing children. Our mission is to provide a centralized hub where families, law enforcement, and the community can collaborate to locate and bring missing children home."
+keywords: "Missing Kid, UGAHacks, Uga hacks 2024, Challange"
 # featured-image is added to metadata tags for social media sharing
 # use a relative path to image in this repository or full URL
 featured-image: "/images/uidaho-workshop.jpg"
@@ -27,13 +27,13 @@ featured-image: "/images/uidaho-workshop.jpg"
 search: true
 
 # author settings for cc-by, appears in the footer and credits
-author: evan will
+author: 
 # your github username for link [optional]
-github_username: evanwill
+github_username: NikhitaKunthu52
 # year or date published
-pub_year: 2021
+pub_year: 2024
 # location of code, the full url to your github repository
-source-code: https://github.com/evanwill/workshop-template-b
+source-code: https://github.com/Nikhitakunthu52/UGAHacks24
 
 ##########
 # URL VARIABLES [optional!!]
