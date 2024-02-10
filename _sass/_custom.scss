@@ -1,1 +1,57 @@
 /* add your tweaks here! */
+/* Apply colors to the body and headers */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark text color */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #007BFF; /* Blue header text color */
+  }
+  
+  /* Apply colors to links */
+  a {
+    color: #007BFF; /* Blue link text color */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Apply colors to buttons */
+  .button {
+    background-color: #007BFF; /* Blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Apply colors to the footer */
+  .footer {
+    background-color: #333; /* Dark footer background color */
+    color: #fff; /* White footer text color */
+    padding: 20px;
+  }
+  
+  /* Apply colors to cards or sections */
+  .card {
+    background-color: #fff; /* White card background color */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add more specific styles for different elements as needed */
+  
